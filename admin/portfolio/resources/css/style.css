@@ -1,0 +1,63 @@
+.loadingImg{
+    height:100%;
+    width:100%;
+}
+
+.bg{
+    background: #8E0E00;
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+    background: linear-gradient(to right, #1F1C18, #8E0E00);
+
+}
+.t{
+    color: #fff;
+}
+
+.cardImg{
+    width: 40rem;
+    height: 10rem;
+}
+.cardTitle{
+    font-size: 52px !important;
+    font-weight: 600 !important;
+}
+.cardMargin{
+    margin: 0 180px 0 180px
+}
+
+.mtf{
+    margin-top: 300px;
+}
+
+.btn-red {background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%)}
+.btn-red {
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: block;
+}
+
+.btn-red:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.tableImg{
+    hight: 100px;
+    width: 100px;
+}
+
+.loginBg{
+    background-image: url("../images/login2.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+

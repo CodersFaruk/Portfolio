@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Faruk\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'development',
+1 verbose cli   '--',
+1 verbose cli   '--watch'
+1 verbose cli ]
+2 info using npm@6.14.7
+3 info using node@v14.7.0
+4 verbose run-script [ 'predevelopment', 'development', 'postdevelopment' ]
+5 info lifecycle @~predevelopment: @
+6 info lifecycle @~development: @
+7 verbose lifecycle @~development: unsafe-perm in lifecycle true
+8 verbose lifecycle @~development: PATH: C:\Users\Faruk\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Faruk\Music\RB-React\admin\portfolio\node_modules\.bin;C:\Users\Faruk\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Faruk\Music\RB-React\admin\portfolio\node_modules\.bin;C:\Users\Faruk\Music\RB-React\admin\portfolio\node_modules\.bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Brackets\command;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Users\Faruk\AppData\Local\Microsoft\WindowsApps;C:\Users\Faruk\AppData\Local\atom\bin;C:\Users\Faruk\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Faruk\AppData\Roaming\Composer\vendor\bin;C:\Users\Faruk\AppData\Roaming\npm
+9 verbose lifecycle @~development: CWD: C:\Users\Faruk\Music\RB-React\admin\portfolio
+10 silly lifecycle @~development: Args: [
+10 silly lifecycle   '/d /s /c',
+10 silly lifecycle   'cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js "--watch"'
+10 silly lifecycle ]
+11 silly lifecycle @~development: Returned: code: 3221225786  signal: null
+12 info lifecycle @~development: Failed to exec development script
+13 verbose stack Error: @ development: `cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js "--watch"`
+13 verbose stack Exit status 3221225786
+13 verbose stack     at EventEmitter.<anonymous> (C:\Users\Faruk\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:314:20)
+13 verbose stack     at ChildProcess.<anonymous> (C:\Users\Faruk\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\lib\spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:314:20)
+13 verbose stack     at maybeClose (internal/child_process.js:1051:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5)
+14 verbose pkgid @
+15 verbose cwd C:\Users\Faruk\Music\RB-React\admin\portfolio
+16 verbose Windows_NT 10.0.18362
+17 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Faruk\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "development" "--" "--watch"
+18 verbose node v14.7.0
+19 verbose npm  v6.14.7
+20 error code ELIFECYCLE
+21 error errno 3221225786
+22 error @ development: `cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js "--watch"`
+22 error Exit status 3221225786
+23 error Failed at the @ development script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 3221225786, true ]
